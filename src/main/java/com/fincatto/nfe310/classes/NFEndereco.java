@@ -27,7 +27,7 @@ public class NFEndereco extends NFBase {
     @Element(name = "UF", required = true)
     private String uf;
 
-    @Element(name = "CEP", required = true)
+    @Element(name = "CEP", required = false)
     private String cep;
 
     @Element(name = "cPais", required = false)

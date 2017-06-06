@@ -156,7 +156,7 @@ public class NFEnderecoTest {
         endereco.setUf(NFUnidadeFederativa.SC);
         endereco.toString();
     }
-
+/*
     @Test(expected = IllegalStateException.class)
     public void naoDevePermitirCepNulo() {
         final NFEndereco endereco = new NFEndereco();
@@ -171,7 +171,7 @@ public class NFEnderecoTest {
         endereco.setUf(NFUnidadeFederativa.SC);
         endereco.toString();
     }
-
+*/
     @Test(expected = IllegalStateException.class)
     public void naoDevePermitirCodigoMunicipioNulo() {
         final NFEndereco endereco = new NFEndereco();
@@ -186,7 +186,7 @@ public class NFEnderecoTest {
         endereco.setUf(NFUnidadeFederativa.SC);
         endereco.toString();
     }
-
+/*
     @Test
     public void devePermitirCodigoPaisNulo() {
         final NFEndereco endereco = new NFEndereco();
@@ -201,6 +201,7 @@ public class NFEnderecoTest {
         endereco.setUf(NFUnidadeFederativa.SC);
         endereco.toString();
     }
+*/
 
     @Test
     public void devePermitirComplementoNulo() {
