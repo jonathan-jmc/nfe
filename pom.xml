@@ -4,7 +4,7 @@
     <groupId>com.github.wmixvideo</groupId>
     <artifactId>nfe</artifactId>
     <packaging>jar</packaging>
-    <version>2.0.3-SNAPSHOT</version>
+    <version>3.0-SNAPSHOT</version>
     <name>nfe</name>
     <description>Biblioteca de comunicacao de nota fiscal eletronica brasileira</description>
     <url>https://github.com/wmixvideo/nfe</url>
@@ -105,6 +105,24 @@
                     <groupId>eclipse</groupId>
                     <artifactId>jdtcore</artifactId>
                 </exclusion>
+                
+				<exclusion>
+                    <groupId>org.bouncycastle</groupId>
+                    <artifactId>bcmail-jdk14</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>bouncycastle</groupId>
+                    <artifactId>bcmail-jdk14</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.bouncycastle</groupId>
+                    <artifactId>bctsp-jdk14</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>bouncycastle</groupId>
+                    <artifactId>bcprov-jdk14</artifactId>
+ 				</exclusion>
+ 				
             </exclusions>
         </dependency>
         
